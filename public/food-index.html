@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Diplomata|Diplomata+SC|Emilys+Candy|Flamenco|Fredericka+the+Great|Gravitas+One|Indie+Flower|Jacques+Francois+Shadow|Life+Savers|Londrina+Outline|Londrina+Shadow|Londrina+Sketch|Montaga|Ribeye" rel="stylesheet">       
+		<!-- Jarallax -->
+      <script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
+      <script src="https://unpkg.com/jarallax@1.10/dist/jarallax-element.min.js"></script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>SAMYii Food Blog</title>
+		<!--BOOTSTRAP-->
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- Bootstrap core CSS -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Material Design Bootstrap -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+		<link href="food.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<div class="bg1 flex-center">
+
+			<div class="">
+
+				<div class="container">
+
+					<a class="btn-floating btn-sm hm-gradient"><i class="fa fa-instagram"></i></a> 
+					<a class="btn-floating btn-sm hc-gradient"><i class="fa fa-twitter"></i></a> 
+					<a class="btn-floating btn-sm hm-gradient"><i class="fa fa-facebook"></i></a>
+					<a class="btn-floating btn-sm hc-gradient"><i class="fa fa-rss"></i></a> 
+
+					<div class="row">
+						<div class="col-md-12 flex-center">
+							<h1 class="title1 text-center mask rgba-black-light">GREAT FOOD<br>Big Bites</h1>
+						</div>
+						<div class="col-md-12 flex-center">
+							<a class="btn-floating btn-sm hc-gradient mt-5 animated fadeInDown infinite"><i class="fa fa-arrow-down"></i></a>							
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			
+		</div>
+
+
+
+    	<div class="text-center"> <!--between-txt-->
+
+    		<button class="tablink" onclick="openPage('Home', this, 'rgb(249, 159, 221)')">Starters</button>
+			<button class="tablink" onclick="openPage('News', this, 'rgb(216, 166, 244)')" id="defaultOpen">Mains</button>
+			<button class="tablink" onclick="openPage('Contact', this, 'rgb(159, 180, 234)')">Deserts</button>
+			<button class="tablink" onclick="openPage('About', this, 'rgb(153, 219, 207)')">Seasonal</button>
+
+			<div id="Home" class="tabcontent">
+				<div class="bg2">
+					<h3>Starters</h3>
+			  		<p>Home is where the heart is..</p>
+			   </div>
+			</div>
+
+
+			<div id="News" class="tabcontent">
+				<div class="bg3"> 
+					<h3>News</h3>
+					<p>Some news this fine day!</p> 
+				</div>
+			</div>
+
+
+			<div id="Contact" class="tabcontent">
+				<div class="bg4">
+					<h3>Contact</h3>
+					<p>Get in touch, or swing by for a cup of coffee.</p>
+				</div>
+			</div>
+
+
+			<div id="About" class="tabcontent">
+				<div class="bg5">
+					<h3>About</h3>
+					<p>Who we are and what we do.</p>
+					<p class="text-center">This example creates a full page background image. Try to resize the browser window to see how it always will cover the full screen (when scrolled to top), and that it scales nicely on all screen sizes.</p>
+				</div>
+			</div>
+
+    	</div>
+
+
+
+
+
+
+
+
+
+		<!-- SCRIPTS -->
+      <script type="text/javascript" src="js/master.js"></script>    
+      <!-- JQuery -->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <!-- Bootstrap tooltips -->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+      <!-- Bootstrap core JavaScript -->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <!-- MDB core JavaScript -->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+      <!--AOS Animate-->
+      <script type="text/javascript" src="js/aos.js"></script>
+      <script type="text/javascript">
+         AOS.init();
+
+         new WOW().init();
+
+			
+
+			function openPage(pageName,elmnt,color) {
+			    var i, tabcontent, tablinks;
+			    tabcontent = document.getElementsByClassName("tabcontent");
+			    for (i = 0; i < tabcontent.length; i++) {
+			        tabcontent[i].style.display = "none";
+			    }
+			    tablinks = document.getElementsByClassName("tablink");
+			    for (i = 0; i < tablinks.length; i++) {
+			        tablinks[i].style.backgroundColor = "";
+			    }
+			    document.getElementById(pageName).style.display = "block";
+			    elmnt.style.backgroundColor = color;
+
+			}
+			// Get the element with id="defaultOpen" and click on it
+			document.getElementById("defaultOpen").click();
+
+      </script>
+	</body>
+</html>

@@ -1,0 +1,130 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.bg1 { 
+    background-image: url("salt.jpg");
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.hc-gradient {
+	border-radius: 50%;
+	padding: 13px 15px;
+	color: #fff !important;
+	text-align: center;
+    background: -webkit-linear-gradient(45deg, rgb(83, 125, 210), rgb(178, 30, 123) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgb(29, 236, 197)), to(rgb(96, 0, 136)));
+    background: linear-gradient(to 45deg, rgb(29, 236, 197), rgb(96, 0, 136) 100%); 
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+} 
+.hm-gradient {
+	border-radius: 50%;
+	padding: 13px 15px;
+	color: #fff !important;
+	text-align: center;
+    background: -webkit-linear-gradient(45deg, rgb(108, 155, 193),rgb(249, 159, 221) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgb(29, 236, 197)), to(rgb(96, 0, 136)));
+    background: linear-gradient(to 45deg, rgb(29, 236, 197), rgb(96, 0, 136) 100%); 
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+} 
+.title1 {
+	color: #fff;
+	font-size: 80px;
+	font-family: 'Londrina Sketch', cursive;
+	font-family: 'Ribeye', cursive;
+	font-family: 'Life Savers', cursive;
+	font-family: 'Jacques Francois Shadow', cursive;
+	font-family: 'Londrina Shadow', cursive;
+	font-family: 'Fredericka the Great', cursive;
+}
+@media (max-width: 500px) {
+	.title1 {
+		font-size: 50px;
+	}
+}
+
+.tablink {
+    background-color: #fff;
+    color: #000;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 0px;
+    height: 100%;
+     background-size: cover;
+}
+#Home {background-color: rgb(249, 159, 221);}
+#News {background-color: rgb(249, 159, 221);}
+#Contact {background-color: rgb(249, 159, 221);}
+#About {background-color: rgb(249, 159, 221);}
+
+
+
+
+
+.between-txt {
+	margin: 1px 1px;
+	font-size: 25px;
+	font-family: 'Montaga', serif;
+	font-family: 'Flamenco', cursive;
+	height: 100%;
+}
+.bg2 { 
+    background-image: url("https://pixabay.com/get/eb35b7072af5063ed1534705fb09439ee77fe3d111ac104497f8c17aaeefb4b9/food-2068217_1920.jpg");
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg3 { 
+    background-image: url("salt.jpg");
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+
+.bg4 { 
+    background-image: url("berry.jpg");
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+
+.bg5 { 
+    background-image: url("salt.jpg");
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
