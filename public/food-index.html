@@ -21,23 +21,91 @@
 
 	<body>
 
-		<div class="bg1 flex-center">
+		<div class="bg1">
+			
 
 			<div class="">
 
+
 				<div class="container">
 
-					<a class="btn-floating btn-sm hm-gradient"><i class="fa fa-instagram"></i></a> 
-					<a class="btn-floating btn-sm hc-gradient"><i class="fa fa-twitter"></i></a> 
-					<a class="btn-floating btn-sm hm-gradient"><i class="fa fa-facebook"></i></a>
-					<a class="btn-floating btn-sm hc-gradient"><i class="fa fa-rss"></i></a> 
+					<div class="row pt-1">
+
+						<div class="col-md-8 animated slideInLeft">
+
+							<a class="btn-floating btn-sm hm-gradient"><i class="fa fa-instagram"></i></a> 
+							<a class="btn-floating btn-sm hc-gradient"><i class="fa fa-twitter"></i></a> 
+							<a class="btn-floating btn-sm hm-gradient"><i class="fa fa-facebook"></i></a>
+							<a class="btn-floating btn-sm hc-gradient"><i class="fa fa-pinterest-p"></i></a> 
+							<a class="btn-floating btn-sm hm-gradient"><i class="fa fa-tumblr"></i></a>
+
+						</div>
+
+						<div class="col-md-4">
+
+							<img class="img-fluid award wow animated fadeIn float-right" src="award.png">
+
+						</div>
+
+					</div>
 
 					<div class="row">
 						<div class="col-md-12 flex-center">
 							<h1 class="title1 text-center mask rgba-black-light">GREAT FOOD<br>Big Bites</h1>
 						</div>
+						<div class="col-md-6">
+							<a href="#" title="View this weeks pick" data-toggle="modal" data-target="#exampleModal"><img id="spin" class=" dropbtn click-dish animated rotate infinite" src="breads2.png"></a>
+						</div>
+
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+						    <div class="modal-dialog" role="document">
+						        <div class="modal-content">
+						            <div class="modal-header">
+						                <h5 class="modal-title" id="ModalLabel">Bruschetta</h5>
+						                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						                    <span aria-hidden="true">&times;</span>
+						                </button>
+						            </div>
+						            <div class="modal-body">
+						                <h5>Ingredients</h5>
+						                <p>
+						                	bread<br>
+						                	olives<br>
+						                	dried anchovies<br>
+						                	sun-dried tomatoes<br>
+						                	onions<br>
+						                	olive oil<br>
+						                	fetta cheese cubes<br>
+						                	salt and pepper
+						                </p>
+						                <h5>Preperation</h5>
+						                <p>
+						                	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						                	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						                	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						                	consequat. Duis aute irure dolor in.
+						                </p>
+						                <h5>Cooking</h5>
+						                <p>
+						                	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						                	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						                	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						                	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						                	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						                	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						                </p>
+						            </div>
+						            <div class="modal-footer">
+						                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						            </div>
+						        </div>
+						    </div>
+						</div>
+
+
 						<div class="col-md-12 flex-center">
-							<a class="btn-floating btn-sm hc-gradient mt-5 animated fadeInDown infinite"><i class="fa fa-arrow-down"></i></a>							
+							<button class="btn-floating btn-sm hc-gradient animated fadeInDown infinite"><i class="fa fa-arrow-down"></i></button>		
 						</div>
 					</div>
 
@@ -51,9 +119,9 @@
 
     	<div class="text-center"> <!--between-txt-->
 
-    		<button class="tablink" onclick="openPage('Home', this, 'rgb(249, 159, 221)')">Starters</button>
-			<button class="tablink" onclick="openPage('News', this, 'rgb(216, 166, 244)')" id="defaultOpen">Mains</button>
-			<button class="tablink" onclick="openPage('Contact', this, 'rgb(159, 180, 234)')">Deserts</button>
+    		<button class="tablink" onclick="openPage('Home', this, 'rgb(249, 159, 221)')">Starter</button>
+			<button class="tablink" onclick="openPage('News', this, 'rgb(216, 166, 244)')" id="defaultOpen">Main</button>
+			<button class="tablink" onclick="openPage('Contact', this, 'rgb(159, 180, 234)')">Desert</button>
 			<button class="tablink" onclick="openPage('About', this, 'rgb(153, 219, 207)')">Seasonal</button>
 
 			<div id="Home" class="tabcontent">

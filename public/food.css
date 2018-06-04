@@ -42,11 +42,45 @@ body, html {
 	font-family: 'Londrina Shadow', cursive;
 	font-family: 'Fredericka the Great', cursive;
 }
-@media (max-width: 500px) {
-	.title1 {
-		font-size: 50px;
-	}
+.award {
+    width: 170px;
+    text-align: right;
 }
+.click-dish {
+    width: 200px;
+}
+@media (max-width: 500px) {
+    .title1 {
+        font-size: 50px;
+    }
+    .award {
+        width: 120px;
+    }
+    .click-dish {
+        width: 100px;
+    }
+}
+@media (min-height: 800px) {
+    .title1 {
+        margin-top: 80px;
+    }
+    .click-dish {
+        margin-top: 50px;
+    }
+}
+#spin {
+        -webkit-animation: rotation 60s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+        from {
+                -webkit-transform: rotate(0deg);
+        }
+        to {
+                -webkit-transform: rotate(359deg);
+        }
+}
+
 
 .tablink {
     background-color: #fff;
@@ -55,7 +89,7 @@ body, html {
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+    padding: 14px 5px;
     font-size: 17px;
     width: 25%;
 }
