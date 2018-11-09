@@ -183,7 +183,7 @@ body, html {
 } 
 
 .foot {
-    color: #607d8b;
+    color: #090909;
 }
 .social3-gradient {
     border-radius: 50%;
@@ -194,6 +194,8 @@ body, html {
     margin-right: 15px;
     font-size: 20px;
 } 
-
+.footer-copyright {
+    color: #090909 !important;
+}
   
 
