@@ -170,6 +170,7 @@ body, html {
     margin-top: 100px;
     padding: 20px;
     text-align: right;
+    margin-bottom: 50px;
 }
 @media (max-width: 1100px) {
     .left-side {
@@ -179,12 +180,14 @@ body, html {
     .right-side {
         float: right;
         width: 50%;
-        margin-top: 20px;
+        margin-top: 0px;
+        margin-right: 40px;
     }
 }
 @media (max-width: 600px) {
     .right-side {
         width: 100%;
+        margin-right: 0px;
     }
 }
 .course-intro {
