@@ -4,7 +4,7 @@ body, html {
     padding: 0px;
     font-family: 'Montaga', serif;
     color: #3E4551;
-}
+} 
 .bg1 { 
     background-image: url("salt2.jpg");
     height: 100%; 
@@ -35,12 +35,8 @@ body, html {
 .title1 {
 	color: #fff;
 	font-size: 80px;
-	font-family: 'Londrina Sketch', cursive;
-	font-family: 'Ribeye', cursive;
-	font-family: 'Life Savers', cursive;
 	font-family: 'Jacques Francois Shadow', cursive;
-	font-family: 'Londrina Shadow', cursive;
-	font-family: 'Fredericka the Great', cursive;
+    font-family: 'Fredericka the Great', cursive;
 }
 .award {
     width: 170px;
@@ -121,7 +117,8 @@ body, html {
 .section-title {
     color: #3E4551;
     margin-bottom: 50px;
-    font-family: 'Montaga', serif;    
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 35px;   
 }
 .bg-starter { 
 }
