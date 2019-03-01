@@ -187,6 +187,15 @@ body, html {
         width: 100%;
     }
 }
+.course-intro {
+    color: #3E4551;
+}
+.season-d {
+    font-size: 22px;
+}
+.season-t {
+    font-weight: bold;
+}
 
 .bg5 { 
     color: #3E4551;
